@@ -14,9 +14,13 @@ int main(){
 //    printf("%f\n",0.0/0.0);
 //    printf("%f\n",1.0/0.0);
 //    printf("%d",1/0);
-    printf("%ld", sizeof(int));
-    printf("%ld", sizeof(double));
-    double i=1.0,j=3.0;
-    i=i/j;
-    printf("%f",i);
+//    printf("%ld", sizeof(int));
+//    printf("%ld", sizeof(double));
+//    double i=1.0,j=3.0;
+//    i=i/j;
+//    printf("%f",i);
+//    printf("%d",533%100);
+//    printf("%d",534%10);
+    printf("%d\n",543/10%10);
+    printf("%d",543%10);
 }
