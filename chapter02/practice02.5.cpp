@@ -14,11 +14,23 @@ int daffodil(){
         if (i == hundred*hundred*hundred + ten*ten*ten + single*single*single){
             printf("%d\n",i);
         }
-
     }
 }
 
-//韩信点并
+//韩信点兵
+int hanxin(){
+    printf("韩信点兵\n");
+    int a,b,c;
+    int total = 0;
+    const int  standard = 105;
+    scanf("%d%d%d",&a,&b,&c);
+    total = a*70 + b*21 + c*15;
+    if ((total % standard) < 100){
+        printf("%d",total%standard);
+    } else printf("No Anwser");
+
+
+}
 
 //倒三角
 
@@ -29,5 +41,6 @@ int daffodil(){
 //排列
 
 int main(){
-    daffodil();
+//    daffodil();
+    hanxin();
 }
