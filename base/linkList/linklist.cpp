@@ -23,7 +23,7 @@ int length(Lnode *p){
     }
     return n;
 }
-
+//取出结点
 int get(Lnode *p, int i){
     int j = 1;
     Lnode *q = p;
@@ -111,19 +111,19 @@ int main(void){
         printf("3--求值查找\n");
         printf("4--增加节点\n");
         printf("5--退出\n");
-        printf("输入你的选择");
+        printf("输入你的选择\n");
         scanf("%d",&select);
         switch (select){
             case 1: {
                 d = length(head);
-                printf("\n 单链表的长度为:%d", d);
+                printf("\n 单链表的长度为:%d\n", d);
                 printf("\n");
                 display(head);
                 printf("\n");
                 break;
             }
             case 2: {
-                printf("\n 请输入取出结点的位置: ");
+                printf("\n 请输入取出结点的位置: \n");
                 scanf("%d",&d);
                 k = get(head,d);
                 printf("%d\n",k);
@@ -132,7 +132,7 @@ int main(void){
                 break;
             }
             case 3:{
-                printf("\n 请输入要查找的数据: ");
+                printf("\n 请输入要查找的数据: \n");
                 scanf("%d",&d);
                 k = locate(head,d);
                 printf("%d\n",k);
@@ -141,9 +141,9 @@ int main(void){
                 break;
             }
             case 4:{
-                printf("\n 请输入增加结点的位置");
+                printf("\n 请输入增加结点的位置 \n");
                 scanf("%d",&k);
-                printf("\n 请输入增加结点的数据");
+                printf("\n 请输入增加结点的数据 \n");
                 scanf("%d",&d);
                 insert(d,k);
                 display(head);
