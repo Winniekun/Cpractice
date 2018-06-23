@@ -1,7 +1,6 @@
 //
 // Created by kongweikun on 18-6-19.
 //
-
 //蛇形数组
 #include <stdio.h>
 #include <string.h>
