@@ -4,7 +4,6 @@
 //开灯问题
 #include <stdio.h>
 #include <string.h>
-wei
 #define  maxn 1010
 int a[maxn];
 int main(){
