@@ -24,17 +24,17 @@ int main(){
 //    printf("%d\n",543/10%10);
 //    printf("%d\n",543%10);
 //    printf("%d\n",41%3);
-//    int a = 2;
-//    int b = 3;
-//    printf("%d\n",++a +3 );
-//    printf("%d\n",a += ++b);
-//    printf("%d\n",a);
-//    printf("%d",0%2);
-    for (int i = 0; i < 2;i++ ){
-        static int a = 1;
-        printf("执行前%d\n",a);
-        a += 1;
-        printf("执行后%d\n",a);
-
-    }
+    int a = 2;
+    int b = 3;
+    printf("%d\n",++a +3 );
+    printf("%d\n",a += ++b);
+    printf("%d\n",a);
+    printf("%d",0%2);
+//    for (int i = 0; i < 2;i++ ){
+//        static int a = 1;
+//        printf("执行前%d\n",a);
+//        a += 1;
+//        printf("执行后%d\n",a);
+//
+//    }
 }
