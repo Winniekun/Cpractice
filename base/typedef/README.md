@@ -87,8 +87,10 @@ STUDENT stu[30];
 
 ### 结构体指针定义与初始化
 
+#### 指向结构体变量的指针
+
 ```
-STUDRNT *pt; /*定义指向STUDRNT结构体的指针变量*/
+STUDENT *pt; /*定义指向STUDRNT结构体的指针变量*/
 ```
 
 但是并未指向一个明确的存储单元，其值是一个随机值，为使`pt`指向一个明确的存储单元，需要对指针变量进行初始化
@@ -116,6 +118,27 @@ pt->studentID = 1001310121
 ```
 
 一样
+
+#### 指向结构体的数组指针
+
+例如已经声明了STUDENT结构体，并且已经定义了一个结构体数组stu.
+
+```
+STUDENT *pt = stu;
+```
+
+与下面的语句等价(具体查阅[指针与一维数组](https://github.com/KongWiKi/Cpractice/tree/master/base/pointer))
+
+```
+STUDENT *pt = &stu[0];
+```
+
+同时也等价于
+
+```
+STUDENT *pt = NULL;
+pt = stu;
+```
 
 
 
