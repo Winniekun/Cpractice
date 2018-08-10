@@ -1,7 +1,7 @@
 //
 // Created by kongweikun on 18-8-6.
 //
-
+#include <stdio.h>
 #define MAXSIZE 20
 #define OK 1
 #define ERROR 0
@@ -59,8 +59,9 @@ Status ListDelete(Sqlist *L, int i, ElemType *e){
 }
 
 int main(){
-    struct  Sq;
-    ListDelete()
+    Sqlist *sqlist;
+
+
 }
 
 
